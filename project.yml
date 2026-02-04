@@ -1,0 +1,26 @@
+name: star_galaxy_ml
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+
+  # science tools
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+
+  # Machine Learning
+  - scikit-learn
+
+  # Astronomie, FITS and tables
+  - astropy
+  - astroquery
+  - h5py
+
+  # jupyter environment
+  - ipython3
+  - jupyterlab
+  - ipykernel
